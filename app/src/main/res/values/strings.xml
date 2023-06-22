@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pos Sehat</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="login_text">Login</string>
+    <string name="reset_password_text">Reset Password</string>
+
+    <string name="umur">Umur: %1$d</string>
+    <string name="alamat">Alamat: %1$s</string>
+    <string name="berat">Berat: %1$.1f</string>
+    <string name="tensi">Tensi: %1$s</string>
+
+    <string name="patients_icon">Ikon Pasien</string>
+    <string name="view_patients">Lihat Pasien</string>
+    <string name="medications_icon">Ikon Obat</string>
+    <string name="add_patient_icon">Ikon Tambah Pasien</string>
+    <string name="view_medications">Lihat Obat</string>
+    <string name="add_patient">Tambah Pasien</string>
+    <string name="logout">Logout</string>
+
+</resources>
