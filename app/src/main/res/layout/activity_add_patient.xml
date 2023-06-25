@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etPatientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/patient_name"
+            android:inputType="textPersonName"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/etPatientAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/patient_age"
+            android:inputType="number"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/etPatientAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/patient_address"
+            android:inputType="textPostalAddress"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/etPatientWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/patient_weight"
+            android:inputType="numberDecimal"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/etPatientTension"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/patient_tension"
+            android:inputType="text"
+            android:importantForAutofill="no"/>
+
+        <Button
+            android:id="@+id/btnAddPatient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/add_patient" />
+
+    </LinearLayout>
+
+</RelativeLayout>

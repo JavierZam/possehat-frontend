@@ -1,7 +1,9 @@
 package com.admin.possehat.api
 
 import com.admin.possehat.model.ApiResponse
+import com.admin.possehat.model.PatientResponse
 import com.admin.possehat.model.Patient
+import com.admin.possehat.model.AddPatientRequest
 import retrofit2.Response
 import retrofit2.http.*
 
@@ -13,7 +15,7 @@ interface PatientApiService {
     suspend fun getPatientById(@Path("id") id: String): Response<ApiResponse<Patient>>
 
     @POST("/patients")
-    suspend fun addPatient(@Body patient: Patient): Response<ApiResponse<Patient>>
+    suspend fun addPatient(@Body patient: AddPatientRequest): Response<ApiResponse<PatientResponse>>
 
     @PUT("/patients/{id}")
     suspend fun updatePatient(@Path("id") id: String, @Body patient: Patient): Response<ApiResponse<Unit>>

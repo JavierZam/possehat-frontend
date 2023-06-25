@@ -36,6 +36,18 @@
             android:name=".activity.PatientDetailActivity"
             android:label="Detail Pasien"
             android:theme="@style/Theme.Possehat" />
+        <activity
+            android:name=".activity.AddMedicationActivity"
+            android:label="Tambah Obat"
+            android:theme="@style/Theme.Possehat" />
+        <activity
+            android:name=".activity.MedicationListActivity"
+            android:label="Daftar Obat"
+            android:theme="@style/Theme.Possehat" />
+        <activity
+            android:name=".activity.AddPatientActivity"
+            android:label="Tambah Pasien"
+            android:theme="@style/Theme.Possehat" />
     </application>
 
 </manifest>

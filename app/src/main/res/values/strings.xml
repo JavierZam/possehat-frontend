@@ -17,4 +17,16 @@
     <string name="add_patient">Tambah Pasien</string>
     <string name="logout">Logout</string>
 
+    <string name="medication_name">Nama Obat</string>
+    <string name="medication_type">Tipe Obat</string>
+    <string name="stock">Stok</string>
+    <string name="expiry_date">Tanggal Expired "Bulan/Tahun"</string>
+    <string name="add_medication">Tambah Obat</string>
+
+    <string name="patient_name">Nama Pasien</string>
+    <string name="patient_age">Usia Pasien</string>
+    <string name="patient_address">Alamat Pasien</string>
+    <string name="patient_weight">Berat Pasien</string>
+    <string name="patient_tension">Tensi Pasien</string>
+
 </resources>

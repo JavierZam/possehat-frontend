@@ -31,8 +31,19 @@ class HomeActivity : AppCompatActivity() {
             .build()
 
         userApiService = retrofit.create(UserApiService::class.java)
+
         binding.viewPatients.setOnClickListener {
             val intent = Intent(this@HomeActivity, PatientListActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.addPatient.setOnClickListener {
+            val intent = Intent(this@HomeActivity, AddPatientActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.viewMedications.setOnClickListener {
+            val intent = Intent(this@HomeActivity, MedicationListActivity::class.java)
             startActivity(intent)
         }
 
