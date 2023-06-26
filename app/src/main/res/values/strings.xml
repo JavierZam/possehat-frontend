@@ -1,4 +1,6 @@
 <resources>
+    <string name="base_url_patient">https://apipatient-fglidlwv3q-et.a.run.app</string>
+
     <string name="app_name">Pos Sehat</string>
     <string name="title_activity_main2">MainActivity2</string>
     <string name="login_text">Login</string>
@@ -6,8 +8,9 @@
 
     <string name="umur">Umur: %1$d</string>
     <string name="alamat">Alamat: %1$s</string>
-    <string name="berat">Berat: %1$.1f</string>
+    <string name="berat">Berat: %1$.1f kg</string>
     <string name="tensi">Tensi: %1$s</string>
+    <string name="drug_name_and_quantity">Nama Obat: %1$s, Jumlah: %2$d</string>
 
     <string name="patients_icon">Ikon Pasien</string>
     <string name="view_patients">Lihat Pasien</string>
@@ -17,16 +20,34 @@
     <string name="add_patient">Tambah Pasien</string>
     <string name="logout">Logout</string>
 
-    <string name="medication_name">Nama Obat</string>
-    <string name="medication_type">Tipe Obat</string>
-    <string name="stock">Stok</string>
-    <string name="expiry_date">Tanggal Expired "Bulan/Tahun"</string>
+    <string name="medication_name">Nama Obat: %s</string>
+    <string name="medication_type">Tipe Obat: %s</string>
+    <string name="stock">Jumlah: %d</string>
+    <string name="expiry_date">Tanggal Kadaluarsa: %s</string>
     <string name="add_medication">Tambah Obat</string>
 
-    <string name="patient_name">Nama Pasien</string>
-    <string name="patient_age">Usia Pasien</string>
-    <string name="patient_address">Alamat Pasien</string>
-    <string name="patient_weight">Berat Pasien</string>
-    <string name="patient_tension">Tensi Pasien</string>
+    <string name="patient_name">Nama</string>
+    <string name="patient_age">Usia</string>
+    <string name="patient_address">Alamat</string>
+    <string name="patient_weight">Berat</string>
+    <string name="patient_tension">Tensi</string>
+
+    <string name="patient_not_found">Patient not found</string>
+    <string name="failed_fetch_patient_data">Failed to fetch patient data</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="no_drugs_found">No drugs found</string>
+    <string name="failed_fetch_drugs_data">Failed to fetch drugs data</string>
+    <string name="no_drug_history_found">No drug history found</string>
+    <string name="failed_fetch_drug_history_data">Failed to fetch drug history data</string>
+    <string name="drug_added_successfully">Drug added successfully</string>
+    <string name="failed_add_drug">Failed to add drug</string>
+
+    <string name="nama">Nama</string>
+    <string name="penambahan_obat">Penambahan Obat</string>
+    <string name="jumlah_obat">Jumlah Obat</string>
+    <string name="tambah_obat">Tambah Obat</string>
+    <string name="riwayat_obat">Riwayat Obat</string>
+
+    <string name="pilih_nama_obat">Pilih Nama Obat</string>
 
 </resources>

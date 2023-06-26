@@ -27,7 +27,7 @@ class PatientListActivity : AppCompatActivity() {
 
         // Set up Retrofit
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://apipatient-fglidlwv3q-et.a.run.app")
+            .baseUrl(getString(R.string.base_url_patient))
             .addConverterFactory(GsonConverterFactory.create())
             .build()
 
